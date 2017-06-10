@@ -37,6 +37,14 @@ namespace Events.Data.Migrations
                 userManager.Create(userToInsert, "pesho@pesho.com");
             }
 
+            if (!(context.Users.Any(u => u.Email == "niki@niki.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "niki@niki.com", PhoneNumber = "0889356512", Email = "niki@niki.com", FullName = "niki niki" };
+                userManager.Create(userToInsert, "niki@niki.com");
+            }
+
             if (!(context.Users.Any(u => u.Email == "rado@rado.com")))
             {
                 var userStore = new UserStore<ApplicationUser>(context);
