@@ -4,10 +4,12 @@
 
     using Microsoft.AspNet.Identity.EntityFramework;
     using Events.Service;
+    using Service;
+    using Service;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public IDbSet<Service.Event> Events { get; set; }
+        public IDbSet<Event> Events { get; set; }
         
 
         public ApplicationDbContext()

@@ -10,6 +10,7 @@
     using Microsoft.Owin.Security;
     using Events.Data;
     using Service;
+    using Service;
 
     public class EmailService : IIdentityMessageService
     {

@@ -2,8 +2,6 @@
 {
     using System;
     using System.Linq.Expressions;
-
-    using Events.Data;
     using Service;
 
     public class EventViewModel

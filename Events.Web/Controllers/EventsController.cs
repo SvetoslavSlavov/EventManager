@@ -4,8 +4,6 @@ namespace Events.Web.Controllers
 {
     using System;
     using System.Linq;
-
-    using Events.Data;
     using Events.Web.Extensions;
     using Events.Web.Models;
 

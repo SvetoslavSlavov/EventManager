@@ -62,9 +62,9 @@
     <Content Include="Content\PagedList.css" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tasks.Service\Tasks.Service.csproj">
-      <Project>{1a052fb0-0d75-4194-948b-021f606333b0}</Project>
-      <Name>Tasks.Service</Name>
+    <ProjectReference Include="..\Events.Service\Events.Service.csproj">
+      <Project>{1A052FB0-0D75-4194-948B-021F606333B0}</Project>
+      <Name>Events.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
