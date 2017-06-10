@@ -45,6 +45,30 @@ namespace Events.Data.Migrations
                 userManager.Create(userToInsert, "niki@niki.com");
             }
 
+            if (!(context.Users.Any(u => u.Email == "boiko@boiko.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "boiko@boiko.com", PhoneNumber = "0889356512", Email = "niki@niki.com", FullName = "boiko" };
+                userManager.Create(userToInsert, "boiko@boiko.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "penio@penev.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "penio@penev.com", PhoneNumber = "0889356512", Email = "penio@penev.com", FullName = "penio" };
+                userManager.Create(userToInsert, "penio@penev.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "gerge@gergev.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "gerge@gergev.com", PhoneNumber = "0889356512", Email = "gerge@gergev.com", FullName = "Georgi" };
+                userManager.Create(userToInsert, "gerge@gergev.com");
+            }
+
             if (!(context.Users.Any(u => u.Email == "rado@rado.com")))
             {
                 var userStore = new UserStore<ApplicationUser>(context);
