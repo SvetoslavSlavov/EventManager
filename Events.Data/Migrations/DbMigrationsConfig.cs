@@ -28,21 +28,6 @@ namespace Events.Data.Migrations
                 CreateAdminUser(context, adminEmail, adminUserName, adminFullName, adminPassword, adminRole);
                 CreateSeveralEvents(context);
             }
-            if (!(context.Users.Any(u => u.Email == "nvalchanov@gmail.com")))
-            {
-                var userStore = new UserStore<ApplicationUser>(context);
-                var userManager = new UserManager<ApplicationUser>(userStore);
-                var userToInsert = new ApplicationUser { UserName = "nikola_valchanov", PhoneNumber = "0889323232", Email = "nvalchanov@gmail.com", FullName = "Nikola Valchanov" };
-                userManager.Create(userToInsert, "nvalchanov@gmail.com");
-            }
-
-            if (!(context.Users.Any(u => u.Email == "svetoslav_slavov@icloud.com")))
-            {
-                var userStore = new UserStore<ApplicationUser>(context);
-                var userManager = new UserManager<ApplicationUser>(userStore);
-                var userToInsert = new ApplicationUser { UserName = "svetoslav_slavov", PhoneNumber = "0889233214", Email = "svetoslav_slavov@icloud.com",FullName="Svetoslav Slavov" };
-                userManager.Create(userToInsert, "svetoslav_slavov@icloud.com");
-            }
 
             if (!(context.Users.Any(u => u.Email == "pesho@pesho.com")))
             {
@@ -115,6 +100,7 @@ namespace Events.Data.Migrations
                 var userToInsert = new ApplicationUser { UserName = "misho@misho.com", PhoneNumber = "0889873212", Email = "misho@misho.com", FullName = "misho misho" };
                 userManager.Create(userToInsert, "misho@misho.com");
             }
+            context.SaveChanges();
         }
 
         private void CreateAdminUser(ApplicationDbContext context, string adminEmail, string adminUserName, string adminFullName, string adminPassword, string adminRole)
