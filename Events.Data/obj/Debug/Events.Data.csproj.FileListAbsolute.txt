@@ -1,3 +1,4 @@
+D:\EventManager1\Events.Data\obj\Debug\Events.Data.csprojResolveAssemblyReference.cache
 D:\EventManager1\Events.Data\bin\Debug\Events.Data.dll.config
 D:\EventManager1\Events.Data\bin\Debug\Events.Data.dll
 D:\EventManager1\Events.Data\bin\Debug\Events.Data.pdb
@@ -5,10 +6,27 @@ D:\EventManager1\Events.Data\bin\Debug\EntityFramework.dll
 D:\EventManager1\Events.Data\bin\Debug\EntityFramework.SqlServer.dll
 D:\EventManager1\Events.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\EventManager1\Events.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\EventManager1\Events.Data\bin\Debug\Tasks.Service.dll
+D:\EventManager1\Events.Data\bin\Debug\Tasks.Service.pdb
 D:\EventManager1\Events.Data\bin\Debug\EntityFramework.xml
 D:\EventManager1\Events.Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\EventManager1\Events.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\EventManager1\Events.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\EventManager1\Events.Data\obj\Debug\Events.Data.csprojResolveAssemblyReference.cache
 D:\EventManager1\Events.Data\obj\Debug\Events.Data.dll
 D:\EventManager1\Events.Data\obj\Debug\Events.Data.pdb
+D:\ZA GIT\Events.Data\bin\Debug\Events.Data.dll.config
+D:\ZA GIT\Events.Data\bin\Debug\Events.Data.dll
+D:\ZA GIT\Events.Data\bin\Debug\Events.Data.pdb
+D:\ZA GIT\Events.Data\bin\Debug\EntityFramework.dll
+D:\ZA GIT\Events.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\ZA GIT\Events.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\ZA GIT\Events.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ZA GIT\Events.Data\bin\Debug\Tasks.Service.dll
+D:\ZA GIT\Events.Data\bin\Debug\Tasks.Service.pdb
+D:\ZA GIT\Events.Data\bin\Debug\EntityFramework.xml
+D:\ZA GIT\Events.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\ZA GIT\Events.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\ZA GIT\Events.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ZA GIT\Events.Data\obj\Debug\Events.Data.csprojResolveAssemblyReference.cache
+D:\ZA GIT\Events.Data\obj\Debug\Events.Data.dll
+D:\ZA GIT\Events.Data\obj\Debug\Events.Data.pdb

@@ -1,3 +1,4 @@
+D:\EventManager1\Events.Web\obj\Debug\Events.Web.csprojResolveAssemblyReference.cache
 D:\EventManager1\Events.Web\bin\Events.Web.dll.config
 D:\EventManager1\Events.Web\bin\Events.Web.dll
 D:\EventManager1\Events.Web\bin\Events.Web.pdb
@@ -20,6 +21,8 @@ D:\EventManager1\Events.Web\bin\Microsoft.Owin.Security.Twitter.dll
 D:\EventManager1\Events.Web\bin\Microsoft.Web.Infrastructure.dll
 D:\EventManager1\Events.Web\bin\Newtonsoft.Json.dll
 D:\EventManager1\Events.Web\bin\Owin.dll
+D:\EventManager1\Events.Web\bin\PagedList.dll
+D:\EventManager1\Events.Web\bin\PagedList.Mvc.dll
 D:\EventManager1\Events.Web\bin\System.Web.Helpers.dll
 D:\EventManager1\Events.Web\bin\System.Web.Mvc.dll
 D:\EventManager1\Events.Web\bin\System.Web.Optimization.dll
@@ -27,8 +30,10 @@ D:\EventManager1\Events.Web\bin\System.Web.Razor.dll
 D:\EventManager1\Events.Web\bin\System.Web.WebPages.Deployment.dll
 D:\EventManager1\Events.Web\bin\System.Web.WebPages.dll
 D:\EventManager1\Events.Web\bin\System.Web.WebPages.Razor.dll
+D:\EventManager1\Events.Web\bin\Tasks.Service.dll
 D:\EventManager1\Events.Web\bin\WebGrease.dll
 D:\EventManager1\Events.Web\bin\Events.Data.pdb
+D:\EventManager1\Events.Web\bin\Tasks.Service.pdb
 D:\EventManager1\Events.Web\bin\Antlr3.Runtime.pdb
 D:\EventManager1\Events.Web\bin\EntityFramework.xml
 D:\EventManager1\Events.Web\bin\EntityFramework.SqlServer.xml
@@ -45,6 +50,8 @@ D:\EventManager1\Events.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\EventManager1\Events.Web\bin\Microsoft.Owin.Security.OAuth.xml
 D:\EventManager1\Events.Web\bin\Microsoft.Owin.Security.Twitter.xml
 D:\EventManager1\Events.Web\bin\Newtonsoft.Json.xml
+D:\EventManager1\Events.Web\bin\PagedList.xml
+D:\EventManager1\Events.Web\bin\PagedList.Mvc.xml
 D:\EventManager1\Events.Web\bin\System.Web.Helpers.xml
 D:\EventManager1\Events.Web\bin\System.Web.Mvc.xml
 D:\EventManager1\Events.Web\bin\System.Web.Razor.xml
@@ -52,6 +59,68 @@ D:\EventManager1\Events.Web\bin\System.Web.WebPages.xml
 D:\EventManager1\Events.Web\bin\System.Web.WebPages.Deployment.xml
 D:\EventManager1\Events.Web\bin\System.Web.WebPages.Razor.xml
 D:\EventManager1\Events.Web\bin\System.Web.Optimization.xml
-D:\EventManager1\Events.Web\obj\Debug\Events.Web.csprojResolveAssemblyReference.cache
 D:\EventManager1\Events.Web\obj\Debug\Events.Web.dll
 D:\EventManager1\Events.Web\obj\Debug\Events.Web.pdb
+D:\ZA GIT\Events.Web\bin\Events.Web.dll.config
+D:\ZA GIT\Events.Web\bin\Events.Web.dll
+D:\ZA GIT\Events.Web\bin\Events.Web.pdb
+D:\ZA GIT\Events.Web\bin\Antlr3.Runtime.dll
+D:\ZA GIT\Events.Web\bin\EntityFramework.dll
+D:\ZA GIT\Events.Web\bin\EntityFramework.SqlServer.dll
+D:\ZA GIT\Events.Web\bin\Events.Data.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ZA GIT\Events.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\ZA GIT\Events.Web\bin\Newtonsoft.Json.dll
+D:\ZA GIT\Events.Web\bin\Owin.dll
+D:\ZA GIT\Events.Web\bin\PagedList.dll
+D:\ZA GIT\Events.Web\bin\PagedList.Mvc.dll
+D:\ZA GIT\Events.Web\bin\System.Web.Helpers.dll
+D:\ZA GIT\Events.Web\bin\System.Web.Mvc.dll
+D:\ZA GIT\Events.Web\bin\System.Web.Optimization.dll
+D:\ZA GIT\Events.Web\bin\System.Web.Razor.dll
+D:\ZA GIT\Events.Web\bin\System.Web.WebPages.Deployment.dll
+D:\ZA GIT\Events.Web\bin\System.Web.WebPages.dll
+D:\ZA GIT\Events.Web\bin\System.Web.WebPages.Razor.dll
+D:\ZA GIT\Events.Web\bin\Tasks.Service.dll
+D:\ZA GIT\Events.Web\bin\WebGrease.dll
+D:\ZA GIT\Events.Web\bin\Events.Data.pdb
+D:\ZA GIT\Events.Web\bin\Tasks.Service.pdb
+D:\ZA GIT\Events.Web\bin\Antlr3.Runtime.pdb
+D:\ZA GIT\Events.Web\bin\EntityFramework.xml
+D:\ZA GIT\Events.Web\bin\EntityFramework.SqlServer.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ZA GIT\Events.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ZA GIT\Events.Web\bin\Newtonsoft.Json.xml
+D:\ZA GIT\Events.Web\bin\PagedList.xml
+D:\ZA GIT\Events.Web\bin\PagedList.Mvc.xml
+D:\ZA GIT\Events.Web\bin\System.Web.Helpers.xml
+D:\ZA GIT\Events.Web\bin\System.Web.Mvc.xml
+D:\ZA GIT\Events.Web\bin\System.Web.Razor.xml
+D:\ZA GIT\Events.Web\bin\System.Web.WebPages.xml
+D:\ZA GIT\Events.Web\bin\System.Web.WebPages.Deployment.xml
+D:\ZA GIT\Events.Web\bin\System.Web.WebPages.Razor.xml
+D:\ZA GIT\Events.Web\bin\System.Web.Optimization.xml
+D:\ZA GIT\Events.Web\obj\Debug\Events.Web.csprojResolveAssemblyReference.cache
+D:\ZA GIT\Events.Web\obj\Debug\Events.Web.dll
+D:\ZA GIT\Events.Web\obj\Debug\Events.Web.pdb

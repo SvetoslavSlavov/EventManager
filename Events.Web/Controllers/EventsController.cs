@@ -10,6 +10,7 @@ namespace Events.Web.Controllers
     using Events.Web.Models;
 
     using Microsoft.AspNet.Identity;
+    using Service;
 
     [Authorize]
     public class EventsController : BaseController

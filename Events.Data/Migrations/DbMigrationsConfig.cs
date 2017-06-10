@@ -1,12 +1,11 @@
 namespace Events.Data.Migrations
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
-
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
+    using Service;
+    using System;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
 
     public sealed class DbMigrationsConfig : DbMigrationsConfiguration<ApplicationDbContext>
     {
@@ -23,11 +22,98 @@ namespace Events.Data.Migrations
             {
                 var adminEmail = "admin@admin.com";
                 var adminUserName = adminEmail;
-                var adminFullName = "System Administrator";
+                var adminFullName = "Peter Yovchev";
                 var adminPassword = adminEmail;
                 string adminRole = "Administrator";
                 CreateAdminUser(context, adminEmail, adminUserName, adminFullName, adminPassword, adminRole);
                 CreateSeveralEvents(context);
+            }
+            if (!(context.Users.Any(u => u.Email == "nvalchanov@gmail.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "nikola_valchanov", PhoneNumber = "0889323232", Email = "nvalchanov@gmail.com", FullName = "Nikola Valchanov" };
+                userManager.Create(userToInsert, "nvalchanov@gmail.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "svetoslav_slavov@icloud.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "svetoslav_slavov", PhoneNumber = "0889233214", Email = "svetoslav_slavov@icloud.com",FullName="Svetoslav Slavov" };
+                userManager.Create(userToInsert, "svetoslav_slavov@icloud.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "pesho@pesho.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "pesho@pesho.com", PhoneNumber = "0889433212", Email = "pesho@pesho.com", FullName = "Pesho Peshev" };
+                userManager.Create(userToInsert, "pesho@pesho.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "rado@rado.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "rado@rado.com", PhoneNumber = "0889356512", Email = "pesho@pesho.com", FullName = "rado rado" };
+                userManager.Create(userToInsert, "rado@rado.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "monica@todorova.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "monica@todorova.com", PhoneNumber = "0889343213", Email = "monica@todorova.com", FullName = "monica todorova" };
+                userManager.Create(userToInsert, "pesho@pesho.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "vlado@gmail.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "vlado@gmail.com", PhoneNumber = "0889453211", Email = "vlado@gmail.com", FullName = "vlado vlado" };
+                userManager.Create(userToInsert, "pesho@pesho.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "kris@abv.bg")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "kris@abv.bg", PhoneNumber = "0889313211", Email = "kris@abv.bg", FullName = "Kris Kris" };
+                userManager.Create(userToInsert, "pesho@pesho.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "ana@ana.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "ana@ana.com", PhoneNumber = "0889343212", Email = "ana@ana.com", FullName = "ana ana" };
+                userManager.Create(userToInsert, "ana@ana.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "ana@ana.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "ana@ana.com", PhoneNumber = "0889323213", Email = "ana@ana.com", FullName = "Ana Ana" };
+                userManager.Create(userToInsert, "ana@ana.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "iliq@iliq.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "iliq@iliq.com", PhoneNumber = "0889355419", Email = "iliq@iliq.com", FullName = "iliq iliq" };
+                userManager.Create(userToInsert, "iliq@iliq.com");
+            }
+
+            if (!(context.Users.Any(u => u.Email == "misho@misho.com")))
+            {
+                var userStore = new UserStore<ApplicationUser>(context);
+                var userManager = new UserManager<ApplicationUser>(userStore);
+                var userToInsert = new ApplicationUser { UserName = "misho@misho.com", PhoneNumber = "0889873212", Email = "misho@misho.com", FullName = "misho misho" };
+                userManager.Create(userToInsert, "misho@misho.com");
             }
         }
 

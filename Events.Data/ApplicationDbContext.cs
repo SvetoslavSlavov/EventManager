@@ -3,10 +3,11 @@
     using System.Data.Entity;
 
     using Microsoft.AspNet.Identity.EntityFramework;
+    using Events.Service;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public IDbSet<Event> Events { get; set; }
+        public IDbSet<Service.Event> Events { get; set; }
         
 
         public ApplicationDbContext()

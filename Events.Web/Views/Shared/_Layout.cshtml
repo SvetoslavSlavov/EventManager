@@ -30,6 +30,10 @@
                         <li>@Html.ActionLink("My Events", "My", "Events")</li>
                         <li>@Html.ActionLink("Create Event", "Create", "Events")</li>
                     }
+                    @if (Request.IsAuthenticated && User.Identity.Name == "admin@admin.com")
+                    {
+                    <li>@Html.ActionLink("Admin", "Index", "Administrator")</li>
+                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

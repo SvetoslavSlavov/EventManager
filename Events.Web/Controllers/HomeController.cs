@@ -4,8 +4,8 @@
     using System.Linq;
     using System.Web.Mvc;
 
-    using Events.Web.Models;
 
+    using Models;
     using Microsoft.AspNet.Identity;
 
     public class HomeController : BaseController

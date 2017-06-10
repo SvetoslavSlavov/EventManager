@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using Events.Data;
+using Events.Service;
 
 namespace Events.Web.Models
 {

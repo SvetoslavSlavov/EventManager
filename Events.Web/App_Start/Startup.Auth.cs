@@ -8,6 +8,7 @@
     using Microsoft.Owin.Security.Cookies;
 
     using Events.Data;
+    using Service;
 
     public partial class Startup
     {
